@@ -1,0 +1,14 @@
+@import "./utilities/variables";
+@import "./utilities/mixins";
+@import "./base/typo";
+@import "./base/reset";
+
+@import "./layout/intro";
+@import "./layout/header";
+@import "./layout/mainIndex";
+@import "./layout/mainCursos";
+@import "./layout/mainViajes";
+@import "./layout/mainContacto";
+@import "./layout/mainAcerca";
+@import "./layout/footer";
+@import "./layout/mediaQueries";

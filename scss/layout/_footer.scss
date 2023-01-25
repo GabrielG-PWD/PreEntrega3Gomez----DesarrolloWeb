@@ -1,0 +1,15 @@
+.footer {
+  background-color: #CFB997;
+  &-principal {
+    .logo {
+      font-size: 2rem;
+      text-transform: uppercase;
+      img {
+        width: 60px;
+      }
+    }
+    .financiacion {
+      width: 50px;
+    }
+  }
+}

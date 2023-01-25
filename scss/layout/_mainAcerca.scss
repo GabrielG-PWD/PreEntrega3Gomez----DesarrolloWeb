@@ -1,0 +1,35 @@
+.main-acerca {
+  @include heroConfig(url("../../assets/img/fondo-acerca.jpg"));
+
+  .info-acerca {
+    .carousel-item {
+      height: 500px;
+
+      .container {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+
+        .instructor-imagen {
+          height: 200px;
+          width: 200px;
+        }
+
+        .instructor-texto {
+          max-width: 70%;
+          text-align: center;
+          
+        }
+      }
+    }
+
+  }
+}
+
+
+// .instructores .carrusel {
+//   max-width: 800px;
+// }

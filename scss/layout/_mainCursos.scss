@@ -1,0 +1,11 @@
+.main-cursos {
+  @include heroConfig(url(../../assets/img/fondo-cursos.jpg));
+  .info {
+    .btn {
+      background-color: $colorNavbar;
+      &:hover {
+        background-color: $colorEfectos;
+      }
+    }
+  }
+}
